@@ -1,0 +1,6 @@
+crewai[tools]==0.30.11
+langchain-anthropic==0.1.11
+langsmith==0.1.93
+python-dotenv==1.0.1
+rich==13.7.1
+pyyaml==6.0.1

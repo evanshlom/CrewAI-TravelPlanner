@@ -1,0 +1,51 @@
+research_task:
+  description: |
+    Research comprehensive travel options for this query: {query}
+    
+    You must find and provide:
+    - Specific flight options with airlines and typical prices
+    - Hotel recommendations with actual price ranges
+    - Transportation options in Las Vegas with costs
+    - Money-saving tips relevant to the traveler's needs
+    
+    Be specific with prices and options. This is for budget-conscious Allegiant customers.
+  expected_output: |
+    Detailed travel findings including:
+    - At least 3 flight options with prices
+    - 5+ hotel recommendations with nightly rates
+    - Transportation options and costs
+    - Practical money-saving tips
+
+event_task:
+  description: |
+    Find relevant Las Vegas events and entertainment for this query: {query}
+    
+    Focus on:
+    - Any events at Allegiant Stadium (Raiders games, concerts, etc.)
+    - Shows and entertainment that match the traveler's interests
+    - Free or affordable attractions
+    - Timing recommendations to maximize the experience
+    
+    Include specific dates, ticket prices, and how to book.
+  expected_output: |
+    Comprehensive event recommendations including:
+    - Allegiant Stadium event schedule with prices
+    - Entertainment options with costs
+    - Free attractions and activities
+    - Best times to visit for events
+
+optimization_task:
+  description: |
+    Create an optimized, conversational travel plan response for: {query}
+    
+    Synthesize all research and event findings into a friendly, helpful response that:
+    - Directly addresses the traveler's specific needs
+    - Provides a clear budget breakdown
+    - Suggests a practical itinerary
+    - Maintains a conversational, engaging tone
+    - Offers specific booking tips and timing advice
+    
+    This is a conversation - be personable and helpful, not robotic.
+  expected_output: |
+    A complete, conversational travel plan that feels like advice from a knowledgeable friend,
+    including budget breakdown, specific recommendations, and actionable next steps.
